@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPIDERMAN</title>
+    <meta name="author" content="sergie code">
+    <meta name="description" content="esta es mi primera pagina web">
+    <meta name="keywords" content="tutorial desarrollo web">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+            padding: 0;
+            margin: 0;
+        }
+
+        .container{
+            display: flex;
+            justify-content: center;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #92a4ff;
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            color: #92a4ff;
+        }
+
+        table {
+            border-collapse: collapse;
+            border: 2px solid rgb(200, 200, 200);
+            letter-spacing: 1px;
+            font-size: 1.5rem;
+            background-color: #FFF;
+        }
+
+        td {
+            border: 1px solid rgb(190, 190, 190);
+            padding: 10px 20px;
+        }
+
+        th {
+            border: 1px solid rgb(190, 190, 190);
+            padding: 10px 20px;
+            background-color: rgb(162, 162, 162);
+        }
+
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+
+        <h1> Spiderman </h1>
+        <nav>
+            <ul>
+                <li>    <a href="index.html"> Home </a> </li>
+                <li>    <a class="active" href="gustos.html"> Gustos</a>   </li>
+                <li>    <a href="audiovisual.html"> Fotos</a>   </li>
+                <li>    <a href="contacto.html"> Contacto</a>   </li>
+            </ul>
+        </nav>
+    </header>
+
+    <h2 style="margin: 15px;">Datos sobre Spiderman</h2>
+    <hr>
+
+    <div class="container">
+
+        <table>
+            <colgroup>
+                <col style="background-color: rgb(231, 204, 204);">
+                <col>
+                <col>
+                <col>
+            </colgroup>
+            <th></th>
+            <th>Preferencias</th>
+            <th>Otras cosas</th>
+
+
+            <tr>
+                <td>alimento</td>
+                <td>carrito de panchos</td>
+                <td>avocado toast</td>
+            </tr>
+            <tr>
+                <td>poderes</td>
+                <td>mucha fuerza</td>
+                <td>entrar en un traje de latex</td>
+            </tr>
+            <tr>
+                <td>preferencias</td>
+                <td>tus objetos de valor</td>
+                <td>escuchar chayanne</td>
+            </tr>
+            <tr>
+                <td>asociaciones</td>
+                <td>la campora</td>
+                <td>centro cultural Recoleta</td>
+            </tr>
+
+        </table>
+    
+    </div>
+
+
+
+
+    <footer class="footer"> Puto el que robe el contenido &copy; 2023</footer>
+
+
+
+</body>
+
+
+
+
+</html>
